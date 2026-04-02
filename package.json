@@ -1,0 +1,16 @@
+{
+  "name": "jasmine-lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "test:coverage": "nyc jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^6.1.0"
+  }
+}
