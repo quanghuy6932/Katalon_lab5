@@ -34,7 +34,7 @@ describe('Integration Test: Order Flow', () => {
     mockApi.get.and.resolveTo({ email: 'huy@gmail.com' });
     mockApi.post.and.resolveTo({ status: 500 }); 
 
-    await service.createOrder(, []);
+    await service.createOrder(1, []);
     expect(mockEmail.sendEmail).not.toHaveBeenCalled();
   });
 });
